@@ -52,7 +52,6 @@ namespace PuyoCvm
             ReadOnlySpan<byte> magicCode = reader.ReadBytes(DirectoryListConstants.DirLstMagicCode.Length);
             if (!magicCode.SequenceEqual(DirectoryListConstants.DirLstMagicCode))
             {
-                Console.WriteLine(reader.BaseStream.Position);
                 throw new DirectoryListInvalidException("The magic code for this directory listing is invalid.");
             }
 
