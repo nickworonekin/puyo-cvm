@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+	<RollForward>Major</RollForward>
+	<LangVersion>11.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
+	<Description>Creates CVM files used in Puyo Puyo! 15th Anniversary and Puyo Puyo 7.</Description>
+	<Copyright>Copyright © Nick Woronekin 2023</Copyright>
+	<VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiscUtils\DiscUtils.Iso9660\DiscUtils.Iso9660.csproj" />
+  </ItemGroup>
+
+</Project>

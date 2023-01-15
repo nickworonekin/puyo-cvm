@@ -1,0 +1,6 @@
+<Project>
+  <!-- Don't produce PDB files for release builds. -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+</Project>
