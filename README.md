@@ -15,7 +15,7 @@ PuyoCvm <executable> <input> [options]
 ### Arguments
 `executable`
 
-The file path to the game's executable. The file name of the executable generally be one of the following:
+The file path to the game's executable. The file name of the executable will generally be one of the following:
 
 * SLPM_627.54 (for Puyo Puyo! 15th Anniversary on PS2)
 * eboot.bin (for PlayStation Portable)
